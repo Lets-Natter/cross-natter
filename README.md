@@ -12,8 +12,8 @@ npm start
 ### cURL requests
 
 ```
-[POST] curl -d '{"crossNatter":"Awesome!"}' -H 'Content-Type: application/json' http://127.0.0.1:5000/natters/123/cross-natter
-[GET]  curl -H 'Content-Type: application/json' http://127.0.0.1:5000/natters/123/cross-natter
+[POST] curl -d '{"crossNatter":"Awesome!"}' -H 'Content-Type: application/json' http://127.0.0.1:5001/natters/123/cross-natter
+[GET]  curl -H 'Content-Type: application/json' http://127.0.0.1:5001/natters/123/cross-natter
 ```
 
 ###### NO DB IMPLEMENTATION YET!
