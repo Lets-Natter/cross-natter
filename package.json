@@ -1,0 +1,26 @@
+{
+  "name": "cross-natter",
+  "version": "1.0.0",
+  "description": "The cross natter on the natter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qasimabdullah404/cross-natter.git"
+  },
+  "author": "Qasim Abdullah <qasimabdullah404@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qasimabdullah404/cross-natter/issues"
+  },
+  "homepage": "https://github.com/qasimabdullah404/cross-natter#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
