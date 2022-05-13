@@ -13,10 +13,10 @@ app.get("/natters/:id/cross-natter", (req, res) => {
 
 app.post("/natters/:id/cross-natter", async (req, res) => {
   const crossNatterId = uuidv4();
-  const { cross } = req.body;
+  const { crossNatter } = req.body;
 
   const crossNatters = crossNatterByNatterId[req.params.id] || [];
-  crossNatters.push({ id: crossNatterId, cross });
+  crossNatters.push({ id: crossNatterId, crossNatter });
   crossNatterByNatterId[req.params.id] = crossNatters;
 
   res.status(201).send(crossNatters);
