@@ -5,8 +5,8 @@
 Run:
 
 ```
-npm install
-npm start
+docker build . -t cross-natter
+docker run --network host -p 5001:5001 -d natter-away
 ```
 
 ### cURL requests
